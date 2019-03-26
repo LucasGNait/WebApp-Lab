@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Star_TedModels
+namespace StarTedModels
 {
     [Table("Courses", Schema = "dbo")]
     public class Course
