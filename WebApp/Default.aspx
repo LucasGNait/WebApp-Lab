@@ -7,7 +7,7 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <h2>Form Descriptions</h2>
             <div class="col-md-4">
                 <h3>Form A</h3>
@@ -26,34 +26,47 @@
 
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-6">
             <h2>Known Bugs & Incompletions</h2>
-            <p>
-                -No known bugs as known so far.
 
-                -Havnt started on any of the forms as of yet.
-            </p>
-        </div>
+            <div class="col-md-4">
+                <h3>BUGS</h3>
+                <p>
+                    -No known bugs as known so far.
+                </p>
 
-        <div class="col-md-4">
-            <h2>Entity Relationship diagram</h2>
-            <p>
-                <img src="ERD.PNG" />
-            </p>
-        </div>
-
-        <div class="col-md-4">
-            <h2>Stored Procedures</h2>
-            <ul>
-                <li>
-               -Assignments_FindByOffering - Returns zero or more Assignments records matching the offering id.
-                </li>
-                <li>
-               -CurrentOfferings_FindByCourse - Returns zero or more CurrentOfferings records matching the supplied course id.
-                </li>
-            </ul>
+            </div>
+            
+            <div class="col-md-4">
+                <h3>Incompletions</h3>
+                <p>-Havnt started on any of the forms as of yet.</p>
+            </div>
+                
+           
         </div>
 
     </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Entity Relationship diagram</h2>
+                <p>
+                    <img style="width: 60rem;" src="ERD.PNG" />
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <h2>Stored Procedures</h2>
+                <ul>
+                    <li>
+                   -Assignments_FindByOffering - Returns zero or more Assignments records matching the offering id.
+                    </li>
+                    <li>
+                   -CurrentOfferings_FindByCourse - Returns zero or more CurrentOfferings records matching the supplied course id.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
 
 </asp:Content>
