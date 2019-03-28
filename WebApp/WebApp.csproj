@@ -143,6 +143,9 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FormA.aspx" />
+    <Content Include="FormB.aspx" />
+    <Content Include="FormC.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -213,6 +216,27 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormA.aspx.cs">
+      <DependentUpon>FormA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormA.aspx.designer.cs">
+      <DependentUpon>FormA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormB.aspx.cs">
+      <DependentUpon>FormB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormB.aspx.designer.cs">
+      <DependentUpon>FormB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormC.aspx.cs">
+      <DependentUpon>FormC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormC.aspx.designer.cs">
+      <DependentUpon>FormC.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

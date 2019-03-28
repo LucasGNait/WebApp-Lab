@@ -53,6 +53,10 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a href="FormA.aspx">FormA.aspx</a></li>
+                        <li><a href="FormB.aspx">FormB.aspx</a></li>
+                        <li><a href="FormC.aspx">FormC.aspx</a></li>
+                        <li><a href="Default.aspx">Default.aspx</a></li>
                     </ul>
                 </div>
             </div>
