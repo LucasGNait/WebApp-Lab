@@ -50,10 +50,10 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="Default.aspx">Default.aspx</a></li>
-                        <li><a href="FormA.aspx">FormA.aspx</a></li>
-                        <li><a href="FormB.aspx">FormB.aspx</a></li>
-                        <li><a href="FormC.aspx">FormC.aspx</a></li>
+                        <li><a href="Default.aspx">Home</a></li>
+                        <li><a href="FormA.aspx">FormA</a></li>
+                        <li><a href="FormB.aspx">FormB</a></li>
+                        <li><a href="FormC.aspx">FormC</a></li>
                     </ul>
                 </div>
             </div>
