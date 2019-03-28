@@ -23,7 +23,7 @@
         <div class="col-md-4">
             <h2>Entity Relationship diagram</h2>
             <p>
-               <img href="ERD.PNG" alt="E. R. D" />
+                <img src="ERD.PNG" />
             </p>
         </div>
 
