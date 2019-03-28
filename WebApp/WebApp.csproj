@@ -252,6 +252,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Star-TedModels\StarTedModels.csproj">
+      <Project>{c895bf52-78d2-4d54-ac9e-57946cf12510}</Project>
+      <Name>StarTedModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StarTedSystem\StarTedSystem.csproj">
+      <Project>{6c4d3d4e-c31f-4967-b389-767a5d9fb9d5}</Project>
+      <Name>StarTedSystem</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
